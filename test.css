@@ -1,0 +1,26 @@
+.parent{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 32px;
+    flex-direction: row;
+}
+.produit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    gap: 16px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+#img3{
+    width: 300px;
+    height: 300px;
+}
+
+#img4{
+    width: 300px;
+    height: 300px;
+}

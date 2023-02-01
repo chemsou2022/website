@@ -1,0 +1,28 @@
+.parent{
+    display: grid;
+grid-template-columns: auto auto auto auto;
+    padding-top: 32px;
+    row-gap: 200px;
+    column-gap: 100px;
+/*background-color: powderblue;*/
+}
+.produit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    gap: 16px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+#img3{
+    width: 300px;
+    height: 300px;
+}
+
+#img4{
+    width: 300px;
+    height: 300px;
+}
